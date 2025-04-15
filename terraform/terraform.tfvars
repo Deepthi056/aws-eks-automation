@@ -1,0 +1,9 @@
+aws_region       = "us-east-1"
+instance_type    = "t3.medium"
+infrapool_name   = "infrapool"
+corepool_name    = "corepool"
+allowed_ssh_cidr = "YOUR_PUBLIC_IP/32"  # Replace with your public IP in CIDR format.
+vpc_id           = "vpc-xxxxxxxx"       # Replace with your VPC ID.
+subnet_ids       = ["subnet-xxxxxxxx", "subnet-yyyyyyyy"]   # Replace with your subnet IDs.
+cluster_role_arn = "arn:aws:iam::123456789012:role/eks-cluster-role"  # Replace with the proper ARN.
+node_role_arn    = "arn:aws:iam::123456789012:role/eks-node-role"       # Replace with the proper ARN.
