@@ -27,9 +27,3 @@ variable "instance_type" {
   description = "Instance type for the nodes in the group"
   type        = string
 }
-
-# The following variable is used to set the desired capacity value.
-variable "desired_capacity" {
-  description = "Desired capacity for the node group"
-  type        = number
-}
