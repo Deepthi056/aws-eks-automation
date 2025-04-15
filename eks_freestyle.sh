@@ -5,8 +5,8 @@ set -e
 # WARNING: Hardcoding AWS credentials is for learning purposes ONLY.
 # Do NOT hardcode credentials in production environments.
 # =====================================================================
-export AWS=""
-export AWs2=""
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
 export AWS_DEFAULT_REGION="us-east-1"
 
 # Validate required parameters passed from the freestyle job
